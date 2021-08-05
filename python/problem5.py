@@ -5,7 +5,7 @@ What is the smallest positive number that is evenly divisible by all of the numb
 '''
 
 def findit(min, max):
-	span = list(range(min, max))
+	span = list(range(min, max + 1))
 
 	for i in range(max, 999999999, max):
 		if all(i % n == 0 for n in span):
