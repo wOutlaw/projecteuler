@@ -42,7 +42,7 @@ def findmax():
 	total = 0
 	temp = 0
 
-	for j in range (0, 987):
+	for j in range (0, len(list) - 13):
 		temp = thirteen(j, list)
 		if temp > total:
 			total = temp
